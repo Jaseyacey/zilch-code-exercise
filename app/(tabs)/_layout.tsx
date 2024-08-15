@@ -28,9 +28,21 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="debitCards"
+        options={{
+          title: "Debit Cards",
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              name={focused ? "cash" : "cash-outline"}
+              color={color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="explore"
         options={{
-          title: "Explore",
+          title: "Most Visited",
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon
               name={focused ? "list-circle" : "list-circle-outline"}
