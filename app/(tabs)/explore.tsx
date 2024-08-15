@@ -11,7 +11,6 @@ import React from "react";
 export default function TabTwoScreen() {
   return (
     <>
-      <ThemedText>Welcome to Zilch</ThemedText>
       <ThemedText>Most visited retailers</ThemedText>
     </>
   );
