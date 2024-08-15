@@ -1,20 +1,33 @@
+import React from "react";
 import {
   StyleSheet,
   View,
   SafeAreaView,
   TextInput,
   Button,
+  Text,
+  TouchableOpacity,
 } from "react-native";
 import { ThemedText } from "@/components/ThemedText";
-import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState, AppDispatch } from "../store";
+import { updateDebitCard } from "../debitCardSlice";
 
 export default function DebitCardChange() {
   const [cardNumber, setCardNumber] = React.useState("");
   const [expiryDate, setExpiryDate] = React.useState("");
   const [cvv, setCvv] = React.useState("");
+  const [showDetails, setShowDetails] = React.useState(false);
+
+  const cardDetails = useSelector((state: RootState) => state.debitCard);
+  const dispatch = useDispatch<AppDispatch>();
+
   const handleSubmit = () => {
     if (formValidation()) {
       alert("Card details submitted successfully");
+      dispatch(
+        updateDebitCard({ card: cardNumber, expiry: expiryDate, cvv: cvv })
+      );
     } else {
       alert("Card details invalid");
     }
@@ -35,6 +48,13 @@ export default function DebitCardChange() {
     }
     return true;
   };
+
+  const maskedCardNumber = cardDetails.debitCard.card.replace(
+    /\d(?=\d{4})/g,
+    "*"
+  );
+  const maskedExpiryDate = "**/**";
+  const maskedCvv = "***";
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
@@ -70,6 +90,25 @@ export default function DebitCardChange() {
           />
           <Button title="Submit" onPress={handleSubmit} />
         </View>
+        <View>
+          <TouchableOpacity onPress={() => setShowDetails(!showDetails)}>
+            <Text>Current Debit Card Details</Text>
+            <Text>
+              Card Number:{" "}
+              {showDetails ? cardDetails.debitCard.card : maskedCardNumber}
+            </Text>
+            <Text>
+              Expiry Date:{" "}
+              {showDetails ? cardDetails.debitCard.expiry : maskedExpiryDate}
+            </Text>
+            <Text>
+              CVV Code: {showDetails ? cardDetails.debitCard.cvv : maskedCvv}
+            </Text>
+            <Text style={styles.toggleText}>
+              {showDetails ? "Hide Details" : "Show Details"}
+            </Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -97,7 +136,6 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
   },
-
   stepContainer: {
     gap: 8,
     marginBottom: 8,
@@ -119,5 +157,10 @@ const styles = StyleSheet.create({
     paddingBottom: 26,
     borderBottomWidth: 1,
     borderBottomColor: "#f0f0f0",
+  },
+  toggleText: {
+    color: "blue",
+    marginTop: 10,
+    textDecorationLine: "underline",
   },
 });
