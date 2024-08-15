@@ -1,0 +1,6651 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen Component matches the snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#11181C",
+          },
+          undefined,
+          {
+            "fontSize": 32,
+            "fontWeight": "bold",
+            "lineHeight": 32,
+          },
+          undefined,
+          undefined,
+          undefined,
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 8,
+          },
+        ]
+      }
+    >
+      List of transactions
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      [
+        {
+          "amount": -45.23,
+          "balance": 1540.77,
+          "date": "2024-01-02",
+          "retailer": "Tesco",
+        },
+        {
+          "amount": -120.99,
+          "balance": 1419.78,
+          "date": "2024-01-03",
+          "retailer": "Amazon UK",
+        },
+        {
+          "amount": -32.15,
+          "balance": 1387.63,
+          "date": "2024-01-04",
+          "retailer": "Sainsbury's",
+        },
+        {
+          "amount": -25.89,
+          "balance": 1361.74,
+          "date": "2024-01-05",
+          "retailer": "Asda",
+        },
+        {
+          "amount": -89.99,
+          "balance": 1271.75,
+          "date": "2024-01-06",
+          "retailer": "John Lewis",
+        },
+        {
+          "amount": -7.5,
+          "balance": 1264.25,
+          "date": "2024-01-07",
+          "retailer": "Costa Coffee",
+        },
+        {
+          "amount": -54.3,
+          "balance": 1209.95,
+          "date": "2024-01-08",
+          "retailer": "Marks & Spencer",
+        },
+        {
+          "amount": -65.4,
+          "balance": 1144.55,
+          "date": "2024-01-09",
+          "retailer": "Next",
+        },
+        {
+          "amount": -23.7,
+          "balance": 1120.85,
+          "date": "2024-01-10",
+          "retailer": "Boots",
+        },
+        {
+          "amount": -38.5,
+          "balance": 1082.35,
+          "date": "2024-01-11",
+          "retailer": "Aldi",
+        },
+        {
+          "amount": -47.2,
+          "balance": 1035.15,
+          "date": "2024-01-12",
+          "retailer": "Primark",
+        },
+        {
+          "amount": -26.8,
+          "balance": 1008.35,
+          "date": "2024-01-13",
+          "retailer": "Morrisons",
+        },
+        {
+          "amount": -78,
+          "balance": 930.35,
+          "date": "2024-01-14",
+          "retailer": "Argos",
+        },
+        {
+          "amount": -54.5,
+          "balance": 875.85,
+          "date": "2024-01-15",
+          "retailer": "B&Q",
+        },
+        {
+          "amount": -150,
+          "balance": 725.85,
+          "date": "2024-01-16",
+          "retailer": "IKEA",
+        },
+        {
+          "amount": -15.75,
+          "balance": 710.1,
+          "date": "2024-01-17",
+          "retailer": "WHSmith",
+        },
+        {
+          "amount": -199.99,
+          "balance": 510.11,
+          "date": "2024-01-18",
+          "retailer": "Currys",
+        },
+        {
+          "amount": -4.75,
+          "balance": 505.36,
+          "date": "2024-01-19",
+          "retailer": "Greggs",
+        },
+        {
+          "amount": -32.45,
+          "balance": 472.91,
+          "date": "2024-01-20",
+          "retailer": "Lidl",
+        },
+        {
+          "amount": -23.6,
+          "balance": 449.31,
+          "date": "2024-01-21",
+          "retailer": "Wilko",
+        },
+        {
+          "amount": -10,
+          "balance": 439.31,
+          "date": "2024-01-22",
+          "retailer": "Poundland",
+        },
+        {
+          "amount": -20.35,
+          "balance": 418.96,
+          "date": "2024-01-23",
+          "retailer": "The Co-operative",
+        },
+        {
+          "amount": -15.25,
+          "balance": 403.71,
+          "date": "2024-01-24",
+          "retailer": "Superdrug",
+        },
+        {
+          "amount": -58.6,
+          "balance": 345.11,
+          "date": "2024-01-25",
+          "retailer": "Waitrose",
+        },
+        {
+          "amount": -34.9,
+          "balance": 310.21,
+          "date": "2024-01-26",
+          "retailer": "H&M",
+        },
+        {
+          "amount": -45.6,
+          "balance": 264.61,
+          "date": "2024-01-27",
+          "retailer": "Debenhams",
+        },
+        {
+          "amount": -30.75,
+          "balance": 233.86,
+          "date": "2024-01-28",
+          "retailer": "TK Maxx",
+        },
+        {
+          "amount": -25,
+          "balance": 208.86,
+          "date": "2024-01-29",
+          "retailer": "Pets at Home",
+        },
+        {
+          "amount": -18.4,
+          "balance": 190.46,
+          "date": "2024-01-30",
+          "retailer": "Halfords",
+        },
+        {
+          "amount": -35.6,
+          "balance": 154.86,
+          "date": "2024-01-31",
+          "retailer": "Pizza Express",
+        },
+        {
+          "amount": -75.8,
+          "balance": 79.06,
+          "date": "2024-02-01",
+          "retailer": "Zara",
+        },
+        {
+          "amount": -49.99,
+          "balance": 29.07,
+          "date": "2024-02-02",
+          "retailer": "JD Sports",
+        },
+        {
+          "amount": -12.3,
+          "balance": 16.77,
+          "date": "2024-02-03",
+          "retailer": "McDonald's",
+        },
+        {
+          "amount": -9.5,
+          "balance": 7.27,
+          "date": "2024-02-04",
+          "retailer": "B&M",
+        },
+        {
+          "amount": -6.5,
+          "balance": 0.77,
+          "date": "2024-02-05",
+          "retailer": "Aldi",
+        },
+        {
+          "amount": -45.23,
+          "balance": -44.46,
+          "date": "2024-02-06",
+          "retailer": "Tesco",
+        },
+        {
+          "amount": -150,
+          "balance": -194.46,
+          "date": "2024-02-07",
+          "retailer": "IKEA",
+        },
+        {
+          "amount": -25.89,
+          "balance": -220.35,
+          "date": "2024-02-08",
+          "retailer": "Asda",
+        },
+        {
+          "amount": -99.99,
+          "balance": -320.34,
+          "date": "2024-02-09",
+          "retailer": "Amazon UK",
+        },
+        {
+          "amount": -22.3,
+          "balance": -342.64,
+          "date": "2024-02-10",
+          "retailer": "Sainsbury's",
+        },
+        {
+          "amount": -7.5,
+          "balance": -350.14,
+          "date": "2024-02-11",
+          "retailer": "Costa Coffee",
+        },
+        {
+          "amount": -120,
+          "balance": -470.14,
+          "date": "2024-02-12",
+          "retailer": "John Lewis",
+        },
+        {
+          "amount": -54.3,
+          "balance": -524.44,
+          "date": "2024-02-13",
+          "retailer": "Marks & Spencer",
+        },
+        {
+          "amount": -23.7,
+          "balance": -548.14,
+          "date": "2024-02-14",
+          "retailer": "Boots",
+        },
+        {
+          "amount": -35.5,
+          "balance": -583.64,
+          "date": "2024-02-15",
+          "retailer": "Lidl",
+        },
+        {
+          "amount": -70,
+          "balance": -653.64,
+          "date": "2024-02-16",
+          "retailer": "Argos",
+        },
+        {
+          "amount": -60,
+          "balance": -713.64,
+          "date": "2024-02-17",
+          "retailer": "Next",
+        },
+        {
+          "amount": -15.75,
+          "balance": -729.39,
+          "date": "2024-02-18",
+          "retailer": "WHSmith",
+        },
+        {
+          "amount": -199.99,
+          "balance": -929.38,
+          "date": "2024-02-19",
+          "retailer": "Currys",
+        },
+        {
+          "amount": -5,
+          "balance": -934.38,
+          "date": "2024-02-20",
+          "retailer": "Greggs",
+        },
+        {
+          "amount": -20.6,
+          "balance": -954.98,
+          "date": "2024-02-21",
+          "retailer": "Wilko",
+        },
+        {
+          "amount": -18.25,
+          "balance": -973.23,
+          "date": "2024-02-22",
+          "retailer": "Superdrug",
+        },
+        {
+          "amount": -10,
+          "balance": -983.23,
+          "date": "2024-02-23",
+          "retailer": "Poundland",
+        },
+        {
+          "amount": -20.35,
+          "balance": -1003.58,
+          "date": "2024-02-24",
+          "retailer": "The Co-operative",
+        },
+        {
+          "amount": -52.6,
+          "balance": -1056.18,
+          "date": "2024-02-25",
+          "retailer": "Waitrose",
+        },
+        {
+          "amount": -40.9,
+          "balance": -1097.08,
+          "date": "2024-02-26",
+          "retailer": "H&M",
+        },
+        {
+          "amount": -45.6,
+          "balance": -1142.68,
+          "date": "2024-02-27",
+          "retailer": "Debenhams",
+        },
+        {
+          "amount": -35.75,
+          "balance": -1178.43,
+          "date": "2024-02-28",
+          "retailer": "TK Maxx",
+        },
+        {
+          "amount": -28,
+          "balance": -1206.43,
+          "date": "2024-02-29",
+          "retailer": "Pets at Home",
+        },
+        {
+          "amount": -25.5,
+          "balance": -1231.93,
+          "date": "2024-03-01",
+          "retailer": "Halfords",
+        },
+        {
+          "amount": -35.6,
+          "balance": -1267.53,
+          "date": "2024-03-02",
+          "retailer": "Pizza Express",
+        },
+        {
+          "amount": -80.8,
+          "balance": -1348.33,
+          "date": "2024-03-03",
+          "retailer": "Zara",
+        },
+        {
+          "amount": -55.99,
+          "balance": -1404.32,
+          "date": "2024-03-04",
+          "retailer": "JD Sports",
+        },
+        {
+          "amount": -13.5,
+          "balance": -1417.82,
+          "date": "2024-03-05",
+          "retailer": "McDonald's",
+        },
+        {
+          "amount": -12.5,
+          "balance": -1430.32,
+          "date": "2024-03-06",
+          "retailer": "B&M",
+        },
+        {
+          "amount": -35.5,
+          "balance": -1465.82,
+          "date": "2024-03-07",
+          "retailer": "Aldi",
+        },
+        {
+          "amount": -40.23,
+          "balance": -1506.05,
+          "date": "2024-03-08",
+          "retailer": "Tesco",
+        },
+        {
+          "amount": -100,
+          "balance": -1606.05,
+          "date": "2024-03-09",
+          "retailer": "IKEA",
+        },
+        {
+          "amount": -25.89,
+          "balance": -1631.94,
+          "date": "2024-03-10",
+          "retailer": "Asda",
+        },
+        {
+          "amount": -119.99,
+          "balance": -1751.93,
+          "date": "2024-03-11",
+          "retailer": "Amazon UK",
+        },
+        {
+          "amount": -22.3,
+          "balance": -1774.23,
+          "date": "2024-03-12",
+          "retailer": "Sainsbury's",
+        },
+        {
+          "amount": -8.5,
+          "balance": -1782.73,
+          "date": "2024-03-13",
+          "retailer": "Costa Coffee",
+        },
+        {
+          "amount": -100,
+          "balance": -1882.73,
+          "date": "2024-03-14",
+          "retailer": "John Lewis",
+        },
+        {
+          "amount": -44.3,
+          "balance": -1927.03,
+          "date": "2024-03-15",
+          "retailer": "Marks & Spencer",
+        },
+        {
+          "amount": -25,
+          "balance": -1952.03,
+          "date": "2024-03-16",
+          "retailer": "Boots",
+        },
+        {
+          "amount": -40.5,
+          "balance": -1992.53,
+          "date": "2024-03-17",
+          "retailer": "Lidl",
+        },
+        {
+          "amount": -65,
+          "balance": -2057.53,
+          "date": "2024-03-18",
+          "retailer": "Argos",
+        },
+        {
+          "amount": -75,
+          "balance": -2132.53,
+          "date": "2024-03-19",
+          "retailer": "Next",
+        },
+        {
+          "amount": -18.75,
+          "balance": -2151.28,
+          "date": "2024-03-20",
+          "retailer": "WHSmith",
+        },
+        {
+          "amount": -199.99,
+          "balance": -2351.27,
+          "date": "2024-03-21",
+          "retailer": "Currys",
+        },
+        {
+          "amount": -5.5,
+          "balance": -2356.77,
+          "date": "2024-03-22",
+          "retailer": "Greggs",
+        },
+        {
+          "amount": -15.6,
+          "balance": -2372.37,
+          "date": "2024-03-23",
+          "retailer": "Wilko",
+        },
+        {
+          "amount": -17.25,
+          "balance": -2389.62,
+          "date": "2024-03-24",
+          "retailer": "Superdrug",
+        },
+        {
+          "amount": -10,
+          "balance": -2399.62,
+          "date": "2024-03-25",
+          "retailer": "Poundland",
+        },
+        {
+          "amount": -20.35,
+          "balance": -2419.97,
+          "date": "2024-03-26",
+          "retailer": "The Co-operative",
+        },
+        {
+          "amount": -58.6,
+          "balance": -2478.57,
+          "date": "2024-03-27",
+          "retailer": "Waitrose",
+        },
+        {
+          "amount": -34.9,
+          "balance": -2513.47,
+          "date": "2024-03-28",
+          "retailer": "H&M",
+        },
+        {
+          "amount": -45.6,
+          "balance": -2559.07,
+          "date": "2024-03-29",
+          "retailer": "Debenhams",
+        },
+        {
+          "amount": -50.75,
+          "balance": -2609.82,
+          "date": "2024-03-30",
+          "retailer": "TK Maxx",
+        },
+        {
+          "amount": -22,
+          "balance": -2631.82,
+          "date": "2024-03-31",
+          "retailer": "Pets at Home",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    initialNumToRender={90}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={90}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "gap": 8,
+        "marginBottom": 8,
+      }
+    }
+    viewabilityConfigCallbackPairs={[]}
+    windowSize={90}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-02
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Tesco
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -45.23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1540.77
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-03
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Amazon UK
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -120.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1419.78
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-04
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Sainsbury's
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -32.15
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1387.63
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-05
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Asda
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25.89
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1361.74
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-06
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            John Lewis
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -89.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1271.75
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-07
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Costa Coffee
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -7.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1264.25
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-08
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Marks & Spencer
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -54.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1209.95
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-09
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Next
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -65.4
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1144.55
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Boots
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -23.7
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1120.85
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-11
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Aldi
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -38.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1082.35
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-12
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Primark
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -47.2
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1035.15
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-13
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Morrisons
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -26.8
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            1008.35
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-14
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Argos
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -78
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            930.35
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-15
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            B&Q
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -54.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            875.85
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-16
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            IKEA
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -150
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            725.85
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-17
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            WHSmith
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -15.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            710.1
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-18
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Currys
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -199.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            510.11
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-19
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Greggs
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -4.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            505.36
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-20
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Lidl
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -32.45
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            472.91
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-21
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Wilko
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -23.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            449.31
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-22
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Poundland
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            439.31
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            The Co-operative
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -20.35
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            418.96
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-24
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Superdrug
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -15.25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            403.71
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Waitrose
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -58.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            345.11
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-26
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            H&M
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -34.9
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            310.21
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-27
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Debenhams
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -45.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            264.61
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-28
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            TK Maxx
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -30.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            233.86
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-29
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pets at Home
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            208.86
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-30
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Halfords
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -18.4
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            190.46
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-01-31
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pizza Express
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -35.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            154.86
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-01
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Zara
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -75.8
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            79.06
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-02
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            JD Sports
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -49.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            29.07
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-03
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            McDonald's
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -12.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            16.77
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-04
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            B&M
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -9.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            7.27
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-05
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Aldi
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -6.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            0.77
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-06
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Tesco
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -45.23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -44.46
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-07
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            IKEA
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -150
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -194.46
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-08
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Asda
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25.89
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -220.35
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-09
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Amazon UK
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -99.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -320.34
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Sainsbury's
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -22.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -342.64
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-11
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Costa Coffee
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -7.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -350.14
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-12
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            John Lewis
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -120
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -470.14
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-13
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Marks & Spencer
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -54.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -524.44
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-14
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Boots
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -23.7
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -548.14
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-15
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Lidl
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -35.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -583.64
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-16
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Argos
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -70
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -653.64
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-17
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Next
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -60
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -713.64
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-18
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            WHSmith
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -15.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -729.39
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-19
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Currys
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -199.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -929.38
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-20
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Greggs
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -934.38
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-21
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Wilko
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -20.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -954.98
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-22
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Superdrug
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -18.25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -973.23
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Poundland
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -983.23
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-24
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            The Co-operative
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -20.35
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1003.58
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Waitrose
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -52.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1056.18
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-26
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            H&M
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -40.9
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1097.08
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-27
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Debenhams
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -45.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1142.68
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-28
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            TK Maxx
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -35.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1178.43
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-02-29
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pets at Home
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -28
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1206.43
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-01
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Halfords
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1231.93
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-02
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pizza Express
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -35.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1267.53
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-03
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Zara
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -80.8
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1348.33
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-04
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            JD Sports
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -55.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1404.32
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-05
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            McDonald's
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -13.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1417.82
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-06
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            B&M
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -12.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1430.32
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-07
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Aldi
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -35.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1465.82
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-08
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Tesco
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -40.23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1506.05
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-09
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            IKEA
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -100
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1606.05
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Asda
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25.89
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1631.94
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-11
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Amazon UK
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -119.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1751.93
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-12
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Sainsbury's
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -22.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1774.23
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-13
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Costa Coffee
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -8.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1782.73
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-14
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            John Lewis
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -100
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1882.73
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-15
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Marks & Spencer
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -44.3
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1927.03
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-16
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Boots
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1952.03
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-17
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Lidl
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -40.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -1992.53
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-18
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Argos
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -65
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2057.53
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-19
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Next
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2132.53
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-20
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            WHSmith
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -18.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2151.28
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-21
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Currys
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -199.99
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2351.27
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-22
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Greggs
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -5.5
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2356.77
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-23
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Wilko
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -15.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2372.37
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-24
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Superdrug
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -17.25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2389.62
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-25
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Poundland
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -10
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2399.62
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-26
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            The Co-operative
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -20.35
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2419.97
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-27
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Waitrose
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -58.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2478.57
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-28
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            H&M
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -34.9
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2513.47
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-29
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Debenhams
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -45.6
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2559.07
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-30
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            TK Maxx
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -50.75
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2609.82
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 26,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+            }
+          }
+          testID="transaction-item"
+        >
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            2024-03-31
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            Pets at Home
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -22
+          </Text>
+          <Text
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            £
+            -2631.82
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#f0f0f0",
+              "borderBottomWidth": 1,
+            }
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
