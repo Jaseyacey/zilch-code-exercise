@@ -16,7 +16,7 @@ export default function HomeScreen() {
         data={TransactionList}
         renderItem={({ item }) => (
           <>
-            <View style={styles.transactionList}>
+            <View style={styles.transactionList} testID="transaction-item">
               <Text style={{ fontSize: 12 }}>{item.date}</Text>
               <Text style={{ fontSize: 12 }}>{item.retailer}</Text>
               <Text style={{ fontSize: 12 }}>£{item.amount}</Text>
@@ -26,6 +26,10 @@ export default function HomeScreen() {
           </>
         )}
         keyExtractor={(item) => item.date}
+        initialNumToRender={TransactionList.length}
+        maxToRenderPerBatch={TransactionList.length}
+        windowSize={TransactionList.length}
+        removeClippedSubviews={false}
       />
     </SafeAreaView>
   );
