@@ -26,10 +26,10 @@ export default function HomeScreen() {
           </>
         )}
         keyExtractor={(item) => item.date}
-        initialNumToRender={TransactionList.length} // Attempt to render all items
-        maxToRenderPerBatch={TransactionList.length} // Render all at once in the batch
-        windowSize={TransactionList.length} // Set window size large enough for all items
-        removeClippedSubviews={false} // Ensure no items are clipped
+        initialNumToRender={TransactionList.length}
+        maxToRenderPerBatch={TransactionList.length}
+        windowSize={TransactionList.length}
+        removeClippedSubviews={false}
       />
     </SafeAreaView>
   );
