@@ -8,7 +8,7 @@ import {
 import { ThemedText } from "@/components/ThemedText";
 import React from "react";
 
-export default function TabTwoScreen() {
+export default function DebitCardChange() {
   const [cardNumber, setCardNumber] = React.useState("");
   const [expiryDate, setExpiryDate] = React.useState("");
   const [cvv, setCvv] = React.useState("");
