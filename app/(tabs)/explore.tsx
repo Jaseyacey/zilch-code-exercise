@@ -58,7 +58,7 @@ export default function TabTwoScreen() {
         <TouchableOpacity style={styles.button} onPress={mostMoneySpent}>
           <Text>Most Money Spent</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button} onPress={mostMoneySpent}>
+        <TouchableOpacity style={styles.button} onPress={mostAmountsOfVisits}>
           <Text>Most Amounts of Visits</Text>
         </TouchableOpacity>
       </View>
