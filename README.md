@@ -1,51 +1,127 @@
-# Welcome to your Expo app 👋
+# Zilch - A React Native Expense Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+Zilch is a simple yet powerful React Native application designed to help users track their spending. It displays a list of transactions and provides insights into where users spend the most money and which stores they visit most frequently.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Global State Management**: Utilizes Redux and Redux Toolkit for efficient state management.
+- **Dynamic Updates**: Allows users to update their debit card details, with immediate synchronization of the Redux state.
+- **Responsive Design**: Fully responsive, providing an optimal experience on both iOS and Android devices.
+- **Thorough Testing**: Comprehensive test coverage for each screen, addressing various edge cases and scenarios to ensure robustness.
 
-2. Start the app
+## Setup and Configuration
 
-   ```bash
-    npx expo start
-   ```
+### Prerequisites
 
-In the output, you'll find options to open the app in a
+- Node.js
+- npm or yarn
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Clone the Repository**
 
-## Get a fresh project
+    ```bash
+    git clone https://github.com/Jaseyacey/zilch-code-exercise.git
+    cd zilch
+    ```
 
-When you're ready, run:
+2. **Install Dependencies**
+
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+3. **Run the App**
+
+    For iOS:
+
+    ```bash
+    npm run ios
+    # or
+    yarn ios
+    ```
+
+    For Android:
+
+    ```bash
+    npm run android
+    # or
+    yarn android
+    ```
+
+### Running Tests
+
+To run the tests, use the following command:
 
 ```bash
-npm run reset-project
+npm test
+# or
+yarn test
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Note**: There is a known issue with the `babel.config.js` that affects testing, particularly for the `DebitCardChangeScreen`. If you encounter issues with the Babel configuration, please review the troubleshooting section below.
 
-## Learn more
+## Troubleshooting
 
-To learn more about developing your project with Expo, look at the following resources:
+### Babel Configuration Issue
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+If you experience test failures related to Babel configuration, particularly with the `DebitCardChangeScreen`, consider the following steps:
 
-## Join the community
+1. **Check `babel.config.js`**
 
-Join our community of developers creating universal apps.
+    Ensure your Babel configuration includes the necessary presets and plugins for React Native and TypeScript. The configuration should look something like this:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# zilch-code-exercise
+    ```js
+    module.exports = function (api) {
+      api.cache(true);
+      return {
+         presets: ["module:@react-native/babel-preset", "@babel/preset-typescript"],
+      };
+    };
+    ```
+
+2. **Update Dependencies**
+
+    Ensure all relevant packages are up to date:
+
+    ```bash
+    npm update
+    # or
+    yarn upgrade
+    ```
+
+3. **Clear Jest Cache**
+
+    Sometimes Jest's cache can cause issues. Clear the cache with:
+
+    ```bash
+    npx jest --clearCache
+    ```
+
+4. **Adjust Jest Configuration**
+
+    Ensure your Jest configuration (`jest.config.js`) is set up to handle ES modules and TypeScript correctly. For example:
+
+    ```js
+    module.exports = {
+      preset: "jest-expo",
+      transform: {
+        "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
+      },
+      transformIgnorePatterns: [
+        "node_modules/(?!(react-redux|@react-native|react-navigation|expo-.*|@reduxjs/toolkit)/)",
+      ],
+      testPathIgnorePatterns: [
+        "<rootDir>/node_modules/",
+        "<rootDir>/.maestro/",
+        "@react-native",
+      ],
+      testEnvironment: "react-native",
+      setupFiles: ["<rootDir>/test/setup.ts"],
+      setupFilesAfterEnv: ["<rootDir>/jest-setup-after-env.js"],
+    };
+    ```
